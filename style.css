@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body {
+  background: #121212;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 30px 0 0 0;
+}
+
+.field {
+  width: 50vw;
+  height: 50vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background: rgb(235, 235, 235);
+}
+
+.field div {
+  background: #121212;
+  padding: 20px;
+}
+
+.field div img {
+  width: 100%;
+}
