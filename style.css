@@ -23,8 +23,8 @@ body {
 }
 
 .field {
-  width: 50vw;
-  height: 50vw;
+  width: 30vw;
+  height: 30vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
